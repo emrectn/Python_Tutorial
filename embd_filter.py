@@ -49,4 +49,4 @@ def asal_mi(x):
     return True
 
 # 1 den 100' e kadar olan asal sayılar.
-print(list(filter(asal_mi, range(1, 100))))
+print("Hakan : ", list(filter(asal_mi, range(1, 100))))
