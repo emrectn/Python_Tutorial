@@ -23,4 +23,17 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
 - [Try/Except/Raise](https://github.com/emrectn/Python_Tutorial/blob/master/try_except_raise.py)
 
 
+### Yapılacaklar:
+- Decorator
+- Enum
+- System
+- Threading
+- Operator
+- Eval
+- Regex
+- Numbers
+- Datetime
+- Arguments
+- Inline
+- Closure
 
