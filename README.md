@@ -21,7 +21,9 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
     - [Special Function For Class](https://github.com/emrectn/Python_Tutorial/blob/master/class_special_function.py)
 - [Random password Generators](https://github.com/emrectn/Python_Tutorial/blob/master/random_password_generators.py)
 - [Try/Except/Raise](https://github.com/emrectn/Python_Tutorial/blob/master/try_except_raise.py)
-
+- [High-Level Number](https://github.com/emrectn/Python_Tutorial/blob/master/highlevel_number.py)
+- [High-Level String](https://github.com/emrectn/Python_Tutorial/blob/master/highlevel_string.py)
+- [High-Level Sets](https://github.com/emrectn/Python_Tutorial/blob/master/highlevel_sets.py)
 
 ### Yapılacaklar:
 - Decorator
