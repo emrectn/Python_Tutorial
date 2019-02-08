@@ -1,10 +1,11 @@
 ﻿
+
 # Python Notları!
 
 Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumların bulunduğu python konuları dosya adlarına göre ayrılmıştır.
 
 ### Python Konuları:
-- [Embedded Function]
+- **Embedded Function**
     - [All()](https://github.com/emrectn/Python_Tutorial/blob/master/embd_all.py)
     - [Any()](https://github.com/emrectn/Python_Tutorial/blob/master/embd_any.py)
     - [Enumarete()](https://github.com/emrectn/Python_Tutorial/blob/master/embd_enumarete.py)
@@ -18,7 +19,7 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
 - [High-Level String](https://github.com/emrectn/Python_Tutorial/blob/master/highlevel_string.py)
 - [High-Level Sets](https://github.com/emrectn/Python_Tutorial/blob/master/highlevel_sets.py)
 - [If](https://github.com/emrectn/Python_Tutorial/blob/master/if.py)
-- [Libraries]
+- **Libraries**
     - [Request](https://github.com/emrectn/Python_Tutorial/blob/master/lib_requests.py)
 - [Logging](https://github.com/emrectn/Python_Tutorial/blob/master/logging_module.py)
 - [Multiple Function Arguments](https://github.com/emrectn/Python_Tutorial/blob/master/multiple_function_arguments.py)
