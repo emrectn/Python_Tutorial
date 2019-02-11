@@ -26,6 +26,13 @@ data = open('request.json')
 response = requests.post('https://www.googleapis.com/qpxExpress/v1/trips/search',
                          headers=headers, params=params, data=data)
 
+"""
+Eğer data içinde değişiken kullanmak isterseniz.
+data = {"url": url}
+            response = requests.post('http://127.0.0.1:1337/', headers=headers,
+                                     data=json.dumps(data))
+"""
+
 
 # GET isteğinin yapılması
 r = requests.get('https://github.com/timeline.json')
