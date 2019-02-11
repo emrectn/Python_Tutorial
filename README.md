@@ -21,6 +21,7 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
 - [If](https://github.com/emrectn/Python_Tutorial/blob/master/if.py)
 - **Libraries**
     - [Request](https://github.com/emrectn/Python_Tutorial/blob/master/lib_requests.py)
+    - [Json](https://github.com/emrectn/Python_Tutorial/blob/master/lib_json.py)
 - [Logging](https://github.com/emrectn/Python_Tutorial/blob/master/logging_module.py)
 - [Multiple Function Arguments](https://github.com/emrectn/Python_Tutorial/blob/master/multiple_function_arguments.py)
 - [Object Oriented](https://github.com/emrectn/Python_Tutorial/blob/master/object_oriented.py)
