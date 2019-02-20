@@ -13,6 +13,7 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
     - [Map()](https://github.com/emrectn/Python_Tutorial/blob/master/embd_map.py)
     - [Reduce()](https://github.com/emrectn/Python_Tutorial/blob/master/embd_reduce.py)
     - [Zip()](https://github.com/emrectn/Python_Tutorial/blob/master/embd_zip.py)
+- [Database-Sqlite](https://github.com/emrectn/Python_Tutorial/blob/master/db_sqlite.py)
 - [File](https://github.com/emrectn/Python_Tutorial/blob/master/file.py)
 - [Generators](https://github.com/emrectn/Python_Tutorial/blob/master/generators.py)
 - [High-Level Number](https://github.com/emrectn/Python_Tutorial/blob/master/highlevel_number.py)
@@ -22,7 +23,11 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
 - **Libraries**
     - [Request](https://github.com/emrectn/Python_Tutorial/blob/master/lib_requests.py)
     - [Json](https://github.com/emrectn/Python_Tutorial/blob/master/lib_json.py)
-- [Logging](https://github.com/emrectn/Python_Tutorial/blob/master/logging_module.py)
+- **Modules**
+    - [Datetime](https://github.com/emrectn/Python_Tutorial/blob/master/module_datetime.py)
+    - [Logging](https://github.com/emrectn/Python_Tutorial/blob/master/module_logging.py)
+    - [Os](https://github.com/emrectn/Python_Tutorial/blob/master/module_os.py)
+    - [Smtp](https://github.com/emrectn/Python_Tutorial/blob/master/module_smtp.py)
 - [Multiple Function Arguments](https://github.com/emrectn/Python_Tutorial/blob/master/multiple_function_arguments.py)
 - [Object Oriented](https://github.com/emrectn/Python_Tutorial/blob/master/object_oriented.py)
     - [Inheritance/Super](https://github.com/emrectn/Python_Tutorial/blob/master/class_inheritance_super.py)
@@ -33,13 +38,11 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
 ### Yapılacaklar:
 - Decorator
 - Enum
-- System
 - Threading
 - Operator
 - Eval
 - Regex
 - Numbers
-- Datetime
 - Arguments
 - Inline
 - Closure
