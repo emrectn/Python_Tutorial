@@ -7,8 +7,6 @@ Alıştırma ve deneme yapmak için aşağıdaki websiteyi kullanabilirsiniz.
 https://regex101.com/
 """
 
-
-
 """
 .   - Tüm herşey (Yeni satır karakteri hariç)
 \d  - Herhangi bir rakam (0-9)

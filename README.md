@@ -21,6 +21,7 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
 - [High-Level Sets](https://github.com/emrectn/Python_Tutorial/blob/master/highlevel_sets.py)
 - [If](https://github.com/emrectn/Python_Tutorial/blob/master/if.py)
 - **Libraries**
+    - [Regex - Regular Expression](https://github.com/emrectn/Python_Tutorial/blob/master/lib_regex.py)
     - [Request](https://github.com/emrectn/Python_Tutorial/blob/master/lib_requests.py)
     - [Json](https://github.com/emrectn/Python_Tutorial/blob/master/lib_json.py)
 - **Modules**
