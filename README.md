@@ -1,4 +1,4 @@
-﻿
+
 
 # Python Notları!
 
@@ -40,11 +40,8 @@ Python 3 notlarımı tutmak için hazırladığım bir repo. Örnek ve yorumlar�
 - Decorator
 - Enum
 - Threading
-- Operator
 - Eval
-- Regex
 - Numbers
 - Arguments
 - Inline
 - Closure
-
