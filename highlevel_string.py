@@ -12,6 +12,12 @@
 "PytHon".lower()
 # 'python'
 
+"""
+    title() methodu bir cümledeki sözcüklerin ilk harflerini büyük harfe çevirir.
+"""
+s = "emre cetin yirmi yaşındadır."
+s.title()
+# "Emre Cetin Yirmi Yaşındadır."
 
 """
     replace()
@@ -73,7 +79,6 @@ print(liste2)
 "                            python      ".rstrip()
 # '                            python'
 
-
 """
     join()
     Listenin elemanlarını bir string değeriyle birleştirmemizi sağlar.
@@ -97,5 +102,36 @@ liste = ["T", "B", "M", "M"]
 "araba".find("a")
 # 0
 
+"araba".rfind("a")
+# 4 Sondan başlayarak arama yapar.
+
 "araba".find("s")
 # -1
+
+
+
+"""
+Palidrom bir kelimenin ters ve düz okunuşunun aynı olmasıdır. Bunu kontrol edebilmek için diziyi ters çevirmek gerekir.
+s = [1,2,3,4,5,6,7,8,9,0]
+
+Dizi ters çevirmek için [::-1] kullanılır. Son indisten başlanarak tersine çevrilir.
+    s[::-1] = [0,9,8,7,6,5,4,3,2,1] 
+Aynı zamanda dizide 2' şer 2'şer veya daha fazla indislerin artırılması sağlanabilir.
+    s[::2] = [1,3,5,7,9]
+    s[::3] = [1,4,7,0]
+
+Palidrom örneği için, aşağıdaki iki değer birbirine eşitse palidrom sayılır.
+    s ="mustafa"
+    s[::-1] = "afatsum"  
+"""
+
+# Palidrom Kelime testi
+s = "madam"
+z = s[::-1]
+if s == z:
+    print("The string is a palindrome")
+else:
+    print("The string is not a palindrome")
+
+
+
