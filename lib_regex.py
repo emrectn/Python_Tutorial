@@ -21,6 +21,8 @@ https://regex101.com/
 \b - Herhangi bir kelime sınırı (!/./?/ /,)
 \B - Kelime sınırı herhangi bir şey
 
+\t, \n, \r -- tab, newline, return
+
 ^ - String başlangıcı
 $ - String sonu
 
@@ -37,7 +39,7 @@ Quantifiers:
 {3,4}   - Adet aralığı (Minimum, Maximum)
 
 """
-
+#--------------------------------------------------------------------------------------------------------#
 
 # TEST DATAMIZ
 
@@ -80,7 +82,7 @@ Doğum Tarihi: 02/07
 Email: minnos_kedi07@pat_imail123.com
 ID: 54574
 """
-
+#--------------------------------------------------------------------------------------------------------#
 
 corba = "1Aa_.!? b\nC2\t3"
 
@@ -124,6 +126,7 @@ for match in matches:
 	print(match)
 	# <_sre.SRE_Match object; span=(10, 12), match='C2'>
 
+#--------------------------------------------------------------------------------------------------------#
 
 """
 	Regex Gruplar
@@ -177,9 +180,59 @@ for match in matches:
 	# <_sre.SRE_Match object; span=(478, 504), match='sirmankocakuyruk@gmail.com'>
 	# <_sre.SRE_Match object; span=(586, 616), match='minnos_kedi07@pat_imail123.com'>
 
+#--------------------------------------------------------------------------------------------------------#
 
-# Aşağıdaki dataki fazla boşlukları ve yanlış karakterin değiştirilmesi, cümle aralarında bulunan büyük harfleri ve cümle başındaki 
-# büyük olması gereken küçük harflerin düzeltilmesini sağlayacağız.
+"""
+Search metodu string içinde arama yapar eğer bulursa match objesi döndürür eğer
+bulamassa None döndürür. Bundan dolayı aramanın başarı olup olmadığı if ile 
+kontrol edilmesi gereklidir. Aşağıdaki örnek 'word: ' aranamaktadır.
+"""
+
+str_exmp = 'an example word:cat!!'
+match = re.search(r'word:\w\w\w', str_exmp)
+# If ile aramanın bulunup bulunmadığı kontorolu
+if match:
+  print('Bulundu ->', match.group()) ## 'found word:cat'
+else:
+  print('Bulunamadı ->')
+
+# Diğer re.search() örnekleri
+# 'piig' stringi içinde 'iii' patterninin aranması
+match = re.search(r'iii', 'piiig') # found, match.group() == "iii"
+match = re.search(r'igs', 'piiig') # not found, match == None
+
+## . = any char but \n
+match = re.search(r'..g', 'piiig') # found, match.group() == "iig"
+
+## \d = digit char, \w = word char
+match = re.search(r'\d\d\d', 'p123g') # found, match.group() == "123"
+match = re.search(r'\w\w\w', '@@abcd!!') # found, match.group() == "abc"
+
+#--------------------------------------------------------------------------------------------------------#
+
+"""
+Findall
+findall () muhtemelen re modülündeki en güçlü fonksiyondur. Yukarıda, bir kalıp
+için ilk eşleşmeyi bulmak üzere re.search () yöntemini kullandık. findall () 
+tüm eşleşenleri bulur ve bulunanları bir liste olarak döndürür, dizideki her bir
+eleman eşleşmeyi temsil eder.
+"""
+
+# Email içeren örnek stringimiz 
+str_exmp = 'purple alice@google.com, blah monkey bob@abc.com blah dishwasher'
+
+# Email ile eşleşenler liste olarak döndürülür.
+emails = re.findall(r'[\w\.-]+@[\w\.-]+', str_exmp) ## ['alice@google.com', 'bob@abc.com']
+for email in emails:
+	# do something with each found email string
+	print(email)
+
+#--------------------------------------------------------------------------------------------------------#
+
+"""
+Aşağıdaki dataki fazla boşlukları ve yanlış karakterin değiştirilmesi, cümle aralarında bulunan büyük harfleri ve
+cümle başındaki büyük olması gereken küçük harflerin düzeltilmesini sağlayacağız.
+"""
 
 raw_data = """
 Sırtı  ona  dönÜK  ve  Kayıtsızmı$  gibi  pencerenin  önÜnden  dı$arısını  izleyen  Karısına  baKtı.  Kollarını  
